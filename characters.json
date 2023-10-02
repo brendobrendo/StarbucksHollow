@@ -1,0 +1,624 @@
+{
+    "characters": [
+        {
+            "characterID": "1",
+            "name": {
+                "firstName": "Alice",
+                "lastName": "Johnson"
+            },
+            "age": "29",
+            "occupation": "Freelance Writer",
+            "favoriteDrink": {
+                "drinkName": "Caramel Macchiato",
+                "customizations": {
+                    "size": "Grande",
+                    "milkType": "Almond Milk",
+                    "sweetener": "Honey",
+                    "extras": "Extra Caramel Drizzle"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Creative",
+                    "Independent",
+                    "Adventurous"
+                ],
+                "negativeTraits": [
+                    "Impulsive",
+                    "Absent-minded"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "5'6\"",
+                "weight": "130 lbs",
+                "eyeColor": "Blue",
+                "hairColor": "Blonde",
+                "distinctFeatures": [
+                    "Nose Piercing"
+                ]
+            },
+            "backstory": {
+                "hometown": "Seattle",
+                "familyBackground": "Middle-Class Family",
+                "lifeEvents": [
+                    "Published a Novel"
+                ],
+                "hobbies": [
+                    "Reading",
+                    "Traveling"
+                ],
+                "relationshipStatus": "Single"
+            },
+            "currentSituation": {
+                "livingArrangement": "Alone in an Apartment",
+                "friendships": [
+                    {
+                        "friendName": "Emma",
+                        "relationship": "College Friend"
+                    }
+                ],
+                "currentConflicts": [
+                    "Struggling with Writer’s Block"
+                ]
+            }
+        },
+        {
+            "characterID": "2",
+            "name": {
+                "firstName": "Daniel",
+                "lastName": "Kim"
+            },
+            "age": "35",
+            "occupation": "Software Engineer",
+            "favoriteDrink": {
+                "drinkName": "Cold Brew Coffee",
+                "customizations": {
+                    "size": "Venti",
+                    "milkType": "None",
+                    "sweetener": "None",
+                    "extras": "With Ice"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Analytical",
+                    "Diligent",
+                    "Patient"
+                ],
+                "negativeTraits": [
+                    "Introverted",
+                    "Overthinker"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "5'10\"",
+                "weight": "160 lbs",
+                "eyeColor": "Brown",
+                "hairColor": "Black",
+                "distinctFeatures": [
+                    "Glasses"
+                ]
+            },
+            "backstory": {
+                "hometown": "San Francisco",
+                "familyBackground": "Immigrant Parents",
+                "lifeEvents": [
+                    "Moved to Seattle for a Job"
+                ],
+                "hobbies": [
+                    "Coding",
+                    "Video Gaming"
+                ],
+                "relationshipStatus": "Engaged"
+            },
+            "currentSituation": {
+                "livingArrangement": "Living with Fiancée",
+                "friendships": [
+                    {
+                        "friendName": "Michael",
+                        "relationship": "Co-worker"
+                    }
+                ],
+                "currentConflicts": [
+                    "Stress from Work"
+                ]
+            }
+        },
+        {
+            "characterID": "3",
+            "name": {
+                "firstName": "Maria",
+                "lastName": "Gonzalez"
+            },
+            "age": "42",
+            "occupation": "School Teacher",
+            "favoriteDrink": {
+                "drinkName": "Chai Latte",
+                "customizations": {
+                    "size": "Tall",
+                    "milkType": "Soy Milk",
+                    "sweetener": "Stevia",
+                    "extras": "With Whipped Cream"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Empathetic",
+                    "Responsible",
+                    "Patient"
+                ],
+                "negativeTraits": [
+                    "Perfectionist",
+                    "Overworked"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "5'4\"",
+                "weight": "140 lbs",
+                "eyeColor": "Green",
+                "hairColor": "Brown",
+                "distinctFeatures": [
+                    "Tattoo on Left Wrist"
+                ]
+            },
+            "backstory": {
+                "hometown": "Los Angeles",
+                "familyBackground": "Large Family",
+                "lifeEvents": [
+                    "Earned Master's in Education"
+                ],
+                "hobbies": [
+                    "Painting",
+                    "Yoga"
+                ],
+                "relationshipStatus": "Divorced"
+            },
+            "currentSituation": {
+                "livingArrangement": "Living with Two Kids",
+                "friendships": [
+                    {
+                        "friendName": "Sophia",
+                        "relationship": "Neighbor"
+                    }
+                ],
+                "currentConflicts": [
+                    "Balancing Work and Family Life"
+                ]
+            }
+        },
+        {
+            "characterID": "4",
+            "name": {
+                "firstName": "Tyler",
+                "lastName": "Smith"
+            },
+            "age": "23",
+            "occupation": "College Student",
+            "favoriteDrink": {
+                "drinkName": "Iced Americano",
+                "customizations": {
+                    "size": "Grande",
+                    "milkType": "Whole Milk",
+                    "sweetener": "Sugar",
+                    "extras": "Light Ice"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Energetic",
+                    "Optimistic",
+                    "Social"
+                ],
+                "negativeTraits": [
+                    "Procrastinator",
+                    "Impatient"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "6'0\"",
+                "weight": "180 lbs",
+                "eyeColor": "Hazel",
+                "hairColor": "Light Brown",
+                "distinctFeatures": [
+                    "Beard"
+                ]
+            },
+            "backstory": {
+                "hometown": "Portland",
+                "familyBackground": "Single Parent Household",
+                "lifeEvents": [
+                    "Started Business Program at University"
+                ],
+                "hobbies": [
+                    "Basketball",
+                    "Music Production"
+                ],
+                "relationshipStatus": "Single"
+            },
+            "currentSituation": {
+                "livingArrangement": "Dormitory",
+                "friendships": [
+                    {
+                        "friendName": "Ethan",
+                        "relationship": "Classmate"
+                    }
+                ],
+                "currentConflicts": [
+                    "Final Exam Stress"
+                ]
+            }
+        },
+        {
+            "characterID": "5",
+            "name": {
+                "firstName": "Emily",
+                "lastName": "Chen"
+            },
+            "age": "31",
+            "occupation": "Graphic Designer",
+            "favoriteDrink": {
+                "drinkName": "Matcha Latte",
+                "customizations": {
+                    "size": "Venti",
+                    "milkType": "Oat Milk",
+                    "sweetener": "Agave",
+                    "extras": "Extra Matcha Powder"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Artistic",
+                    "Open-minded",
+                    "Friendly"
+                ],
+                "negativeTraits": [
+                    "Sensitive",
+                    "Indecisive"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "5'3\"",
+                "weight": "125 lbs",
+                "eyeColor": "Black",
+                "hairColor": "Dark Brown",
+                "distinctFeatures": [
+                    "Freckles"
+                ]
+            },
+            "backstory": {
+                "hometown": "Vancouver",
+                "familyBackground": "Came from a Family of Artists",
+                "lifeEvents": [
+                    "Opened Own Design Studio"
+                ],
+                "hobbies": [
+                    "Photography",
+                    "Hiking"
+                ],
+                "relationshipStatus": "In a Relationship"
+            },
+            "currentSituation": {
+                "livingArrangement": "Living with Partner",
+                "friendships": [
+                    {
+                        "friendName": "Isabella",
+                        "relationship": "Best Friend"
+                    }
+                ],
+                "currentConflicts": [
+                    "Creative Block"
+                ]
+            }
+        },
+        {
+            "characterID": "6",
+            "name": {
+                "firstName": "James",
+                "lastName": "Martinez"
+            },
+            "age": "28",
+            "occupation": "Barista",
+            "favoriteDrink": {
+                "drinkName": "Flat White",
+                "customizations": {
+                    "size": "Short",
+                    "milkType": "2% Milk",
+                    "sweetener": "None",
+                    "extras": "None"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Attentive",
+                    "Patient",
+                    "Friendly"
+                ],
+                "negativeTraits": [
+                    "Shy",
+                    "Overcautious"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "5'8\"",
+                "weight": "145 lbs",
+                "eyeColor": "Grey",
+                "hairColor": "Black",
+                "distinctFeatures": [
+                    "Ear Gauges"
+                ]
+            },
+            "backstory": {
+                "hometown": "Miami",
+                "familyBackground": "Grew up in a Tight-knit Community",
+                "lifeEvents": [
+                    "Moved to Seattle for Opportunities"
+                ],
+                "hobbies": [
+                    "Playing Guitar",
+                    "Cycling"
+                ],
+                "relationshipStatus": "Single"
+            },
+            "currentSituation": {
+                "livingArrangement": "Shared Apartment",
+                "friendships": [
+                    {
+                        "friendName": "Olivia",
+                        "relationship": "Roommate"
+                    }
+                ],
+                "currentConflicts": [
+                    "Financial Struggles"
+                ]
+            }
+        },
+        {
+            "characterID": "7",
+            "name": {
+                "firstName": "Sarah",
+                "lastName": "Williams"
+            },
+            "age": "38",
+            "occupation": "Real Estate Agent",
+            "favoriteDrink": {
+                "drinkName": "Mocha",
+                "customizations": {
+                    "size": "Grande",
+                    "milkType": "Whole Milk",
+                    "sweetener": "Sugar",
+                    "extras": "With Whipped Cream"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Ambitious",
+                    "Communicative",
+                    "Resilient"
+                ],
+                "negativeTraits": [
+                    "Workaholic",
+                    "Stubborn"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "5'7\"",
+                "weight": "155 lbs",
+                "eyeColor": "Brown",
+                "hairColor": "Auburn",
+                "distinctFeatures": [
+                    "Always Wears Heels"
+                ]
+            },
+            "backstory": {
+                "hometown": "Dallas",
+                "familyBackground": "Parents are Entrepreneurs",
+                "lifeEvents": [
+                    "Became Top Seller in Her Firm"
+                ],
+                "hobbies": [
+                    "Golf",
+                    "Wine Tasting"
+                ],
+                "relationshipStatus": "Married"
+            },
+            "currentSituation": {
+                "livingArrangement": "Living in a Suburban House",
+                "friendships": [
+                    {
+                        "friendName": "Charlotte",
+                        "relationship": "Golf Buddy"
+                    }
+                ],
+                "currentConflicts": [
+                    "Competitive Work Environment"
+                ]
+            }
+        },
+        {
+            "characterID": "8",
+            "name": {
+                "firstName": "Ryan",
+                "lastName": "Lee"
+            },
+            "age": "33",
+            "occupation": "Fitness Trainer",
+            "favoriteDrink": {
+                "drinkName": "Protein Smoothie",
+                "customizations": {
+                    "size": "Venti",
+                    "milkType": "Skim Milk",
+                    "sweetener": "None",
+                    "extras": "Protein Powder"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Motivated",
+                    "Disciplined",
+                    "Positive"
+                ],
+                "negativeTraits": [
+                    "Overconfident",
+                    "Impulsive"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "6'2\"",
+                "weight": "210 lbs",
+                "eyeColor": "Green",
+                "hairColor": "Brown",
+                "distinctFeatures": [
+                    "Muscular Build"
+                ]
+            },
+            "backstory": {
+                "hometown": "San Diego",
+                "familyBackground": "Military Family",
+                "lifeEvents": [
+                    "Opened His Own Gym"
+                ],
+                "hobbies": [
+                    "Weightlifting",
+                    "Surfing"
+                ],
+                "relationshipStatus": "Single"
+            },
+            "currentSituation": {
+                "livingArrangement": "Loft in the City",
+                "friendships": [
+                    {
+                        "friendName": "Benjamin",
+                        "relationship": "Childhood Friend"
+                    }
+                ],
+                "currentConflicts": [
+                    "Business Challenges Due to Pandemic"
+                ]
+            }
+        },
+        {
+            "characterID": "9",
+            "name": {
+                "firstName": "Grace",
+                "lastName": "Taylor"
+            },
+            "age": "27",
+            "occupation": "Musician",
+            "favoriteDrink": {
+                "drinkName": "Vanilla Latte",
+                "customizations": {
+                    "size": "Tall",
+                    "milkType": "Coconut Milk",
+                    "sweetener": "Maple Syrup",
+                    "extras": "Cinnamon on Top"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Talented",
+                    "Dreamer",
+                    "Free-spirited"
+                ],
+                "negativeTraits": [
+                    "Unpredictable",
+                    "Sensitive"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "5'5\"",
+                "weight": "120 lbs",
+                "eyeColor": "Blue",
+                "hairColor": "Pink",
+                "distinctFeatures": [
+                    "Multiple Tattoos"
+                ]
+            },
+            "backstory": {
+                "hometown": "Austin",
+                "familyBackground": "Family of Musicians",
+                "lifeEvents": [
+                    "Released an Album Independently"
+                ],
+                "hobbies": [
+                    "Songwriting",
+                    "Vintage Shopping"
+                ],
+                "relationshipStatus": "In a Relationship"
+            },
+            "currentSituation": {
+                "livingArrangement": "Living in a Studio",
+                "friendships": [
+                    {
+                        "friendName": "Mia",
+                        "relationship": "Band Member"
+                    }
+                ],
+                "currentConflicts": [
+                    "Finding a Record Label"
+                ]
+            }
+        },
+        {
+            "characterID": "10",
+            "name": {
+                "firstName": "Alex",
+                "lastName": "Davis"
+            },
+            "age": "30",
+            "occupation": "Photographer",
+            "favoriteDrink": {
+                "drinkName": "Pumpkin Spice Latte",
+                "customizations": {
+                    "size": "Venti",
+                    "milkType": "Oat Milk",
+                    "sweetener": "Brown Sugar",
+                    "extras": "Extra Pumpkin Spice"
+                }
+            },
+            "personalityTraits": {
+                "positiveTraits": [
+                    "Observant",
+                    "Creative",
+                    "Independent"
+                ],
+                "negativeTraits": [
+                    "Perfectionist",
+                    "Reserved"
+                ]
+            },
+            "physicalAppearance": {
+                "height": "5'8\"",
+                "weight": "150 lbs",
+                "eyeColor": "Brown",
+                "hairColor": "Red",
+                "distinctFeatures": [
+                    "Always Carries a Camera"
+                ]
+            },
+            "backstory": {
+                "hometown": "New York",
+                "familyBackground": "Parents are Journalists",
+                "lifeEvents": [
+                    "Had Photo Exhibit in Local Gallery"
+                ],
+                "hobbies": [
+                    "Street Photography",
+                    "Urban Exploration"
+                ],
+                "relationshipStatus": "Single"
+            },
+            "currentSituation": {
+                "livingArrangement": "Living Alone",
+                "friendships": [
+                    {
+                        "friendName": "Sam",
+                        "relationship": "Fellow Photographer"
+                    }
+                ],
+                "currentConflicts": [
+                    "Building a Client Base"
+                ]
+            }
+        }
+    ]
+}
