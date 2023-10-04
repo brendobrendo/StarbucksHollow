@@ -47,27 +47,27 @@ class Neo4jConnection:
                 session.close()
         return response
     
-conn = Neo4jConnection(uri=NEO_URI, user=NEO_USERNAME, pwd=NEO_PASSWORD)
+# conn = Neo4jConnection(uri=NEO_URI, user=NEO_USERNAME, pwd=NEO_PASSWORD)
 
-characters = load_json('characters.json')
-print(characters)
+# characters = load_json('characters.json')
+# print(characters)
 
-for character in characters:
-    character_query = """
-    MERGE (c:Character {characterID: $characterID})
-    SET c += {
-        firstName: $firstName,
-        lastName: $lastName,
-        age: $age,
-        occupation: $occupation
-    }
-    """
-    conn.query(character_query, parameters={
-        'characterID': character['characterID'],
-        'firstName': character['name']['firstName'],
-        'lastName': character['name']['lastName'],
-        'age': character['age'],
-        'occupation': character['occupation']
-    })
+# for character in characters:
+#     character_query = """
+#     MERGE (c:Character {characterID: $characterID})
+#     SET c += {
+#         firstName: $firstName,
+#         lastName: $lastName,
+#         age: $age,
+#         occupation: $occupation
+#     }
+#     """
+#     conn.query(character_query, parameters={
+#         'characterID': character['characterID'],
+#         'firstName': character['name']['firstName'],
+#         'lastName': character['name']['lastName'],
+#         'age': character['age'],
+#         'occupation': character['occupation']
+#     })
 
-conn.close()
+# conn.close()
